@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background: #020617;
+}
+
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.projects {
+    background: #020617;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin: 15px auto;
+    width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #334155;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+}
